@@ -76,7 +76,7 @@ i {
 
 .blue-wallpaper img {
     width: 68%;
-    margin: 8% 0 0 65%;
+    margin: 9% 0 0 65%;
 }
 
 .postion {
@@ -124,4 +124,14 @@ i {
 .btn2:hover {
     background: #ffffff;
     color: #000000;
+}
+
+.section2 {
+    width: 100%;
+    height: 50vh;
+}
+
+.header-section2 h1 {
+    text-align: center;
+    margin: 1% 0 0 0;
 }
