@@ -133,5 +133,58 @@ i {
 
 .header-section2 h1 {
     text-align: center;
-    margin: 1% 0 0 0;
+    margin: 2% 0 0 0;
+}
+
+.card {
+    text-align: center;
+    margin-left: 10%;
+    width: 39%;
+    height: 550px;
+}
+
+.card img {
+    width: 130%;
+    height: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cards-wrapper {
+    display: flex;
+    transition: ease 0.5s;
+}
+
+.display-area {
+    width: 100%;
+    margin: auto;
+}
+
+.dots-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.dot {
+    border: none;
+    background: rgba(0, 0, 0, 0.2);
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    border-radius: 50%;
+    outline: none;
+}
+
+.dot:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.dot.active {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.clr {
+    clear: both;
 }
