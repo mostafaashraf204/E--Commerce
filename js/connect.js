@@ -7,7 +7,7 @@ fetch('https://fakestoreapi.com/products')
             products.innerHTML += `
             <div class="child">
             <img src="${prodect.image}">
-            <h1>${(prodect.title).substring(0, 30)}</h1>
+            <h3>${(prodect.title).substring(0, 30)}</h3>
             <p>$ ${prodect.price}</p>
             <div class="information">
                 <button class="btn3"><i class="fas fa-expand-alt"></i></button>
