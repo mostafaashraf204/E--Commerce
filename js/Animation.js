@@ -1,33 +1,16 @@
-var wrapper = document.querySelector('.cards-wrapper');
-
-var dots = document.querySelectorAll('.dot');
-
-let activeDotNum = 0;
-
-dots.forEach((dot, idx) => {
-
-    dot.setAttribute('data-num', idx);
-
-
-    dot.addEventListener('click', (e) => {
-
-        let clickedDotNum = e.target.dataset.num;
-
-        if (clickedDotNum == activeDotNum) {
-
-            return;
-        } else {
-
-            let displayArea = wrapper.parentElement.clientWidth;
-
-            let pixels = -displayArea * clickedDotNum
-            wrapper.style.transform = 'translateX(' + pixels + 'px)';
-
-            dots[activeDotNum].classList.remove('active');
-            dots[clickedDotNum].classList.add('active');
-
-            activeDotNum = clickedDotNum;
+$('.owl-carousel').owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: false,
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 3
+        },
+        1000: {
+            items: 3
         }
-
-    });
-});
+    }
+})
