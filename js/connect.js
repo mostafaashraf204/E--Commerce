@@ -1,9 +1,10 @@
-var images = document.getElementById("image");
+var image = document.getElementById("item");
 var products = document.getElementById("product")
 fetch('https://fakestoreapi.com/products')
     .then(prodect => prodect.json())
     .then(prodect => {
         prodect.forEach(prodect => {
+
             products.innerHTML += `
             <div class="child">
             <img src="${prodect.image}">
