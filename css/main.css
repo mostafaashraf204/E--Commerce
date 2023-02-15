@@ -168,6 +168,15 @@
         background-color: #384aeb;
     }
     
+    .item {
+        height: 550px;
+    }
+    
+    .item img {
+        width: 100%;
+        height: 100%;
+    }
+    
     .Trending_Product {
         margin-left: 21.8%;
         margin-top: -6%;
@@ -257,8 +266,10 @@
         padding-top: 1%;
         margin-top: 160%;
         width: 100%;
-        height: 50vh;
+        height: 60vh;
         background-image: url("../imges/parallax-bg.png.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     
     .info {
@@ -303,4 +314,53 @@
         background-color: transparent;
         border: 1px solid #384aeb;
         color: black;
+    }
+    
+    .section4 {
+        padding: 1px;
+        width: 100%;
+        height: 80vh;
+    }
+    
+    .Best_seller {
+        margin: 7% 0 0 18%;
+    }
+    
+    .Best_seller p {
+        color: #777;
+    }
+    
+    .Best_seller h2 {
+        margin: 0 0 0 0;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    
+    .hrr {
+        margin: 0.2% 0 0 6%;
+        width: 113px;
+        height: 2px;
+        background-color: #384aeb;
+    }
+    
+    .perant2 {
+        margin-top: 2%;
+        margin-left: 13%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    .child2 {
+        text-align: center;
+        background-color: #777;
+        height: 260px;
+        width: 15%;
+        margin-left: -10%;
+    }
+    
+    .child2 img {
+        width: 100%;
+        height: 100%;
+        margin: 0 0 0 0;
     }

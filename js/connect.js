@@ -1,5 +1,6 @@
 var image = document.getElementById("item");
 var products = document.getElementById("product")
+var prodect2 = document.getElementById("product2")
 fetch('https://fakestoreapi.com/products')
     .then(prodect => prodect.json())
     .then(prodect => {
@@ -17,5 +18,16 @@ fetch('https://fakestoreapi.com/products')
             </div>
         </div>
             `
+        })
+    })
+fetch('https://fakestoreapi.com/products?limit=4')
+    .then(limit => limit.json())
+    .then(limit => {
+        limit.forEach(limit => {
+            prodect2.innerHTML += `<div class="child2">
+            <img src="${limit.image}">
+            <h3>${(limit.title).substring(0.30)}</h3>
+            <p>${limit.price}</p>
+        </div>`
         })
     })
