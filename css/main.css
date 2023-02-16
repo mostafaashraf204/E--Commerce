@@ -1,4 +1,5 @@
     @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
     * {
         box-sizing: border-box;
         font-family: 'Roboto', sans-serif;
@@ -353,7 +354,6 @@
     
     .child2 {
         text-align: center;
-        background-color: #777;
         height: 260px;
         width: 15%;
         margin-left: -10%;
@@ -363,4 +363,104 @@
         width: 100%;
         height: 100%;
         margin: 0 0 0 0;
+    }
+    
+    .timer {
+        margin: auto;
+        width: 63%;
+        height: 42vh;
+        background-color: #f4f4f4;
+    }
+    
+    .discount {
+        margin: 0 0 0 26.5%;
+    }
+    
+    .discount img {
+        margin-top: 0%;
+    }
+    
+    .summur {
+        margin: -25% 0 0 65%;
+        width: 230px;
+        height: 230px;
+        background-color: white;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+    
+    .circal {
+        margin: -16% 0 0 71%;
+    }
+    
+    .circal h2 {
+        color: #384aeb;
+        margin: 0 0 0 -26%;
+        font-size: 55px;
+        font-family: 'Julee', cursive;
+    }
+    
+    .stop-watch {
+        margin-left: 3%;
+    }
+    
+    .min {
+        margin: 5% 0 0 68%;
+    }
+    
+    .min h3 {
+        margin-top: 3%;
+    }
+    
+    .mins {
+        margin: -50px 0 0 4%;
+    }
+    
+    .sec {
+        margin: -7% 0 0 77%;
+    }
+    
+    .sec span {
+        margin: 10% 0 0 7%;
+    }
+    
+    .photo {
+        margin-top: 7%;
+    }
+    
+    .perant3 {
+        margin-top: 2%;
+        margin-left: -1%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    .child3 {
+        padding-left: 4%;
+        text-align: center;
+        height: 260px;
+        width: 19.99%;
+        margin-left: 0%;
+    }
+    
+    .child3 img {
+        width: 100%;
+        height: 100%;
+        transition: 0.6s;
+        -webkit-transition: 0.6s;
+        -moz-transition: 0.6s;
+        -ms-transition: 0.6s;
+        -o-transition: 0.6s;
+    }
+    
+    .child3 img:hover {
+        opacity: 0.1;
+    }
+    
+    .child3 h3 {
+        margin: -40% 0 0 -30%;
     }
