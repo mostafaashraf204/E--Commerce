@@ -170,10 +170,11 @@
     }
     
     .item {
-        height: 550px;
+        height: 560px;
     }
     
     .item img {
+        margin-left: 0%;
         width: 100%;
         height: 100%;
     }
@@ -463,4 +464,101 @@
     
     .child3 h3 {
         margin: -40% 0 0 -30%;
+    }
+    
+    .footer {
+        margin-top: 4%;
+        width: 100%;
+        height: 40vh;
+    }
+    
+    .continer1 img {
+        margin: 3% 0 0 23%;
+    }
+    
+    .continer1 p {
+        color: #777;
+        width: 20%;
+        margin: 1% 0 0 23%;
+    }
+    
+    .QUICK_LINKS {
+        margin: -5.5% 0 0 47%;
+    }
+    
+    .QUICK_LINKS p {
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .QUICK_LINKS a {
+        margin-top: 2%;
+        text-decoration: none;
+        color: #777;
+    }
+    
+    .ACCOUNT {
+        margin: -10.3% 0 0 59%;
+    }
+    
+    .ACCOUNT p {
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .ACCOUNT a {
+        margin-top: 2%;
+        text-decoration: none;
+        color: #777;
+    }
+    
+    .NEWSLETTER {
+        margin: -10.3% 0 0 69%;
+    }
+    
+    .NEWSLETTER p {
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .NEWSLETTER input {
+        height: 52px;
+        width: 60%;
+        border: 1px solid #e1e1e1;
+        border-radius: 50px;
+        padding-left: 30px;
+        font-size: 14px;
+        color: #666666;
+    }
+    
+    .NEWSLETTER button {
+        margin-left: -25%;
+        font-size: 14px;
+        color: #ffffff;
+        background: #384aeb;
+        font-weight: 600;
+        border: none;
+        text-transform: uppercase;
+        display: inline-block;
+        padding: 13px 32px;
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+    }
+    
+    .iconss {
+        margin: 5% 0 0 2%;
+    }
+    
+    .hrrr {
+        margin: 5% 0 0 25%;
+        width: 1000px;
+        height: 1px;
+        background-color: #777;
+    }
+    
+    .copyright {
+        margin-left: 36%;
     }
